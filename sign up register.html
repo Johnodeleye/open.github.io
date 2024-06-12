@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="sign up.css">
+
+    <script src="https://kit.fontawesome.com/90e3d6a338.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="Section_top">
+        <div class="container">
+            <div class="form-box">
+                <h1 id="title">Sign Up</h1>
+                <form id="student-form">
+                    <div class="input-group">
+                        <div class="input-field" id="nameField">
+                            <i class="fa-solid fa-user"></i>
+                
+                            <input type="text" placeholder="Name" id="studentName" required>
+                        </div>
+                                                                        
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" required placeholder="Email" id="Email" required>
+                        </div>
+                        
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Password" id="Password" required>
+                        </div>                            
+                        <p>Lost password <a href="bot.html">Click Here!</a></p>
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" id="signupBtn">Sign Up</button>
+                        <button type="button" id="signinBtn" class="disable">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+     <!-- <div class="content">
+        <h1 id="h1">Future <span>Clans</span></h1>
+        <a href="index.html">Welcome</a>
+     </div> -->
+    </div>
+
+    <div id="popup" style="display:none;">
+        <h2>Welcome to Future Clan Bootcamp!</h2><br>
+        <p>We're glad you're here.</p><br>
+        <p>You will get a mail shortly to complete your registration</p><br>
+        <button id="close-btn"><strong>Close</strong></button>
+    </div>
+
+    <script src="Index.js"></script>
+</body>
+
+</html>
